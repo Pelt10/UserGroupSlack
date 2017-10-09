@@ -1,0 +1,10 @@
+language: java
+notifications:
+  email: false
+install: true
+jdk: oraclejdk8
+script:
+  - mvn clean install
+cache:
+  directories:
+    - ~/.m2
